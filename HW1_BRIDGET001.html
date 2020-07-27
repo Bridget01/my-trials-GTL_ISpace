@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW1_BRIDGET001.html</title>
+    <style>
+    div{
+        height: 350pt;
+        width: 70%;
+        background-color: rgba(128, 128, 128, 0.3);
+        margin-left: 5%;
+    }
+    input{
+        position: relative;
+        left: 2%;
+        margin-top: 15pt;
+        height: 20pt;
+        width: 90%;
+        
+    }
+    label{
+        position: relative;
+        left: 2%; 
+        top: 10pt ;
+    }
+    select{
+        position: relative;
+        left: 2%;
+        margin-top: 15pt;
+        height: 25pt;
+        width: 90%
+    
+    }
+    .submit{
+        background-color:  #4CAF50;
+        border-radius: 5pt ;
+        width: 80pt;
+        height: 30pt;
+        color: white;
+        font-size: 15px;
+        border: 2px solid  #4CAF50;
+    }
+    .subject{
+        height: 30pt;
+        
+    }
+    textarea{
+        position: relative;
+        left: 2%;
+        margin-top: 15pt;
+        height: 100pt;
+        width: 90%;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <strong><label for="firstname">First Name</label></strong>
+    <br>
+    <input type="text" size="180" placeholder="Your name..">
+    <br>
+    <strong><label for="lastname">Last Name</label></strong>
+    <br>
+    <input type="text" size="180" placeholder="Last name.." >
+    <br>
+    <strong> <label for="country">Country</label></strong>
+    <br> 
+    <select id="country" name="country" class="form-control">
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="Åland Islands">Åland Islands</option>
+        <option value="Albania">Albania</option>
+        <option value="Algeria">Algeria</option>
+     </select>
+    <br>
+    <strong><label for="subject">Subject</label></strong>
+    <br>
+    <textarea name="textarea" id="text" cols="1" rows="1" placeholder="Write something here.." ></textarea>
+    <br>
+    <strong><input class="submit" type="submit"  value="Submit" ></strong>
+    
+    </div>
+    
+    
+</body>
+</html>
